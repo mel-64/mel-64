@@ -27,6 +27,7 @@ jobs:
           
           plugin_notable: true
           plugin_notable_filter: "stars:>=50"
+          plugin_notable_repositories: true
           plugin_notable_indepth: true
           plugin_notable_types: commit
           plugin_notable_self: true
