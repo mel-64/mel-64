@@ -26,6 +26,7 @@ jobs:
           
           plugin_lines: true
           plugin_lines_sections: base
+          plugin_lines_delay: 10
           plugin_lines_history_limit: 10 # in years
           
           plugin_notable: true
