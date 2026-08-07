@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 */4 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
@@ -26,7 +26,7 @@ jobs:
           plugin_lines_history_limit: 10 # in years
           
           plugin_notable: true
-          plugin_notable_filter: "stars:>=10"
+          plugin_notable_filter: "stars:>=50"
           plugin_notable_repositories: true
           plugin_notable_indepth: true
           plugin_notable_types: commit
