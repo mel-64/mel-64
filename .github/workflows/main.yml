@@ -16,6 +16,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           
           base: header, activity, community, repositories, metadata
+          repositories_forks: true
+          repositories: 1000
+          debug_print: true
+          
           base_indepth: true
           base_hireable: false
           plugin_isocalendar: true
