@@ -32,3 +32,8 @@ jobs:
           plugin_notable_types: commit
           plugin_notable_self: true
           plugin_notable_from: all
+
+          plugin_languages: true
+          plugin_languages_indepth: true
+          plugin_languages_recent_days: 365
+          
