@@ -34,6 +34,7 @@ jobs:
           plugin_notable_from: all
 
           plugin_languages: true
+          plugin_languages_sections: recently-used
           plugin_languages_indepth: true
           plugin_languages_recent_days: 365
           plugin_languages_recent_load: 1000
