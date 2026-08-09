@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           
           base: header, activity, community, repositories, metadata
-          debug_print: true
+          config_timezone: Europe/Zurich
           
           base_indepth: true
           base_hireable: false
