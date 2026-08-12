@@ -20,4 +20,4 @@ Contact me via data linked at the bottom of [status.melthecat.dev](https://statu
 
 > If you know me from a professional standpoint, please kindly refrain from snooping around in my social media.
 
-<p align="center", width="100%"><img width="50%" src="./github-metrics.svg"></img></p>
+<p align="center", width="100%"><img width="70%" src="./github-metrics.svg"></img></p>
